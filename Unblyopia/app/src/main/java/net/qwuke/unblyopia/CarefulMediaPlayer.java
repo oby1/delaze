@@ -3,7 +3,6 @@ package net.qwuke.unblyopia;
 import android.content.SharedPreferences;
 import android.media.MediaPlayer;
 import android.preference.PreferenceManager;
-import android.util.Log;
 
 public class CarefulMediaPlayer {
     final SharedPreferences sp;

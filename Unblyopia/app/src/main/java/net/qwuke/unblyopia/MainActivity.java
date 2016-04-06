@@ -1,24 +1,16 @@
 package net.qwuke.unblyopia;
 
+import android.content.Context;
 import android.graphics.Color;
-import android.hardware.Sensor;
-import android.hardware.SensorEvent;
-import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.media.MediaPlayer;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.view.KeyEvent;
-import android.view.Menu;
-import android.view.MenuItem;
-
-
-import android.content.Context;
 import android.os.Vibrator;
+import android.view.KeyEvent;
 import android.view.MotionEvent;
-
-import com.google.vrtoolkit.cardboard.*;
-import com.google.vrtoolkit.cardboard.sensors.*;
+import com.google.vrtoolkit.cardboard.CardboardActivity;
+import com.google.vrtoolkit.cardboard.sensors.HeadTracker;
 
 
 public class MainActivity extends CardboardActivity {

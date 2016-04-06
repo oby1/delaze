@@ -5,8 +5,6 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Point;
 import android.graphics.drawable.ShapeDrawable;
-import android.util.FloatMath;
-import android.util.Log;
 import android.view.Display;
 import android.view.WindowManager;
 import net.qwuke.unblyopia.TetrisModel.Block;
@@ -91,7 +89,7 @@ public class TetrisDrawer {
     
     /**
      * Draws score counter
-     * */
+     */
     public void drawHUD() {
         paint.setColor(Color.WHITE);
         paint.setTextSize(blockSize);
